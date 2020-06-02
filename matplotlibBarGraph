@@ -1,0 +1,13 @@
+#create bar graph
+import matplotlib.pyplot as plt
+
+x=[1,2,3,4,5]
+y=[10,20,25,36,5] #no of x==y(x=5,y=5 numbers)
+tick_label=['one','two','three','four','five']
+plt.bar(x,y,tick_label=tick_label,width=0.7,color=['yellow']) 
+#plt.bar(x,y,tick_label=tick_label,width=0.7,color=['yellow','green'])
+#try diff bar colors 
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.title('Bar Graph')
+plt.show()
