@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+
+activities=['eat','sleep','work','play']
+slices=[3,5,6,8]
+color=['red','blue','purple','pink']
+plt.pie(slices,labels=activities,colors=color,startangle=90,shadow=True,explode=(0.2,0,0,0),autopct='%1.2f%%')
+plt.legend()
+plt.show()
