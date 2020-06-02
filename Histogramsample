@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+ages=[2,15,56,25,65,66,45,23,29,24,23]
+range=(0,100)
+bins=10
+plt.hist(ages,bins,range,color='green',histtype='bar',rwidth=0.7)
+
+plt.xlabel('ages')
+plt.ylabel('Bins')
+plt.title('Histogram plot')
+plt.show()
